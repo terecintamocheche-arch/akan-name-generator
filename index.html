@@ -7,27 +7,45 @@
 </head>
 <h1>The Akan name generator</h1>
 <body>
-    <h2>When were you born</h2>
-    <form>
-    <label>Date:</label>
-    <input type="date:1-31"><br><br>
+    
+<body>
 
-    <label>Month:</label>
-    <input type="month:1-12"><br><br>
-
-    <label>Year:</label>
-    <input type="1900-2025"><br><br>
-
-    <label>Gender:</label>
-    <input type="radio" name="gender"> Male
-    <input type="radio" name="gender"> Female<br><br>
+        <p>Find your Akan name based on your birth date and gender.</p>
 
 
-    <input type="submit" value="Submit">
-    <input type="reset" value="Reset">
 
+    <section id="form-section">
+        <h2>Enter Your Details</h2>
 
-    </form>
+        <form id="akanForm">
+            <label>Date:</label>
+            <input type="number" id="day">
+
+            <label>Month:</label>
+            <input type="number" id="month">
+
+            <label>Year:</label>
+            <input type="number" id="year">
+
+            <label>Gender:</label>
+            <select id="gender">
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+
+            <br><br>
+
+            <button type="submit">Generate Name</button>
+        </form>
+    </section>
+
+    <!-- Result -->
+    <section id="result-section">
+        <h2>Your Akan Name</h2>
+        <p id="result">Your name will appear here.</p>
+    </section>
+
+</body>
 
     
 </body>
