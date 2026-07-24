@@ -25,7 +25,7 @@ function generateName() {
     let day = parseInt(document.getElementById("day").value);
     let month = parseInt(document.getElementById("month").value);
     let year = parseInt(document.getElementById("year").value);
-    let gender = document.getElementById("gender").value;
+}
 
     // Validate input
     if (day < 1 || day > 31) {
@@ -38,14 +38,14 @@ function generateName() {
         return;
     }
 
-    let selectedGender = document.querySelector( 'input[name="gender"]:checked')
+    let selectedGender = document.querySelector( 'input[name="gender"]:checked');
     if (!selectedGender) {
         alert("please select a gender.");
         return;
     }
+
     let gender = selectedGender.value;
-    
-    }
+
 
     // Split the year
     let CC = Math.floor(year / 100);
@@ -72,4 +72,5 @@ function generateName() {
         document.getElementById("result").innerHTML =
             "Your Akan name is <strong>" + femaleNames[d] + "</strong>";
     }
-}
+
+
