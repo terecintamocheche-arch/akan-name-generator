@@ -4,50 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THE AKAN NAME GENERATOR</title>
+    <link href="style.css" rel="stylesheet">
 </head>
-<h1>The Akan name generator</h1>
+
+
 <body>
+    <h1>The Akan Name Generator</h1>
     
-<body>
+
 <div class="container">
         <p>Find your Akan name based on your birth date and gender.</p>
 
 
 
     <section id="form-section">
-        <h2>Enter Your Details</h2>
+        <label>Day</label>
+<input type="number" id="day" min="1" max="31">
 
-        <form id="akanForm">
-            <label>Date:</label>
-            <input type="number" id="day">
+<label>Month</label>
+<input type="number" id="month" min="1" max="12">
 
-            <label>Month:</label>
-            <input type="number" id="month">
+<label>Year</label>
+<input type="number" id="year">
 
-            <label>Year:</label>
-            <input type="number" id="year">
+<label>Gender</label>
 
-            <label>Gender:</label>
-            <select id="gender">
-                <option>Male</option>
-                <option>Female</option>
-            </select>
+<input type="radio" name="gender" value="male" id="male">
+<label for="male">Male</label>
 
-            <br><br>
+<input type="radio" name="gender" value="female" id="female">
+<label for="female">Female</label>
 
-            <button type="submit">Generate Name</button>
-        </form>
+<button type="button" onclick="generateName()">Generate Akan Name</button>
+
     </section>
-
-    <!-- Result -->
     <section id="result-section">
         <h2>Your Akan Name</h2>
         <p id="result">Your name will appear here.</p>
     </section>
     </div>
-
-</body>
-
-    
+<script src="script.js"></script>
 </body>
 </html>
