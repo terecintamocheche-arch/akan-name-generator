@@ -25,7 +25,7 @@ function generateName() {
     let day = parseInt(document.getElementById("day").value);
     let month = parseInt(document.getElementById("month").value);
     let year = parseInt(document.getElementById("year").value);
-}
+
 
     // Validate input
     if (day < 1 || day > 31) {
@@ -72,5 +72,6 @@ function generateName() {
         document.getElementById("result").innerHTML =
             "Your Akan name is <strong>" + femaleNames[d] + "</strong>";
     }
+}
 
 
