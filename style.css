@@ -8,7 +8,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+    background: #FFF8E7;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -22,7 +22,7 @@ body {
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-    max-width: 80000px;
+    max-width: 800px;
     margin:50px auto;
 
 
@@ -33,6 +33,7 @@ h1 {
     display:block;
     width:100%;
     text-align:center;
+    COLOR:#2E6F40;
 
 
 }
@@ -74,7 +75,7 @@ button {
     width: 100%;
     margin-top: 25px;
     padding: 14px;
-    background: #d63384;
+    background: #D4AF37;
     color: white;
     border: none;
     border-radius: 10px;
