@@ -9,7 +9,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(135deg, #ffdde1, #ee9ca7);
-    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -19,17 +18,23 @@ body {
 
 .container {
     background: white;
-    width: 450px;
+    width: 8000%;
     padding: 30px;
-    border-radius: 20px;
+    border-radius: 15px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    max-width: 80000px;
+    margin:50px auto;
+
+
 }
 
 
 h1 {
-    text-align: center;
-    color: #d63384;
-    margin-bottom: 10px;
+    display:block;
+    width:100%;
+    text-align:center;
+
+
 }
 
 p {
@@ -106,4 +111,14 @@ footer {
     margin-top: 20px;
     color: #777;
     font-size: 14px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #f8c8dc; /* Light pink */
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
 }
