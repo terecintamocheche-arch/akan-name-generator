@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -33,7 +33,9 @@ h1 {
     display:block;
     width:100%;
     text-align:center;
-    COLOR:#2E6F40;
+    COLOR:#0f3319;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
 
 
 }
