@@ -10,7 +10,7 @@ Terecinta Mocheche
 - Enter day, month and year of birth
 - Select gender
 - Displays the corresponding Akan name
-
+ReR
 ## Technologies Used
 - HTML
 - CSS
